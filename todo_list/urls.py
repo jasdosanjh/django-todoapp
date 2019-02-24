@@ -4,4 +4,8 @@ from .import views
 urlpatterns = [
     path('', views.home, name='index'),
     path('about/', views.about, name='about'),
+    path('delete/<list_id>', views.delete, name='delete'),
+    path('completed/<list_id>', views.completed, name='completed'),
+    path('not_complete/<list_id>', views.not_complete, name='not_complete'),
+    path('edit/<list_id>', views.edit, name='edit'),
 ]
