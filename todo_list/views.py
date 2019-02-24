@@ -20,7 +20,7 @@ def home(request):
         return render(request, 'index.html', {'all_items': all_items})
 
 def about(request):
-    context = {'first_name': 'Gurpreet', 'last_name': 'Dosanjh'}
+    context = {'first_name': 'Jas', 'last_name': 'Dosanjh'}
     return render(request, 'about.html', context)
 
 def delete(request, list_id):
