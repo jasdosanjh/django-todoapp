@@ -2,7 +2,7 @@
 This is a simple to do list app made using Python, and Django.
 
 ## Live Demo:
-This is currently a work in progress, and will be updated as soon as the app is complete.
+https://jsd-django-todoapp.herokuapp.com/
 
 ## Built With
 * HTML5
